@@ -1524,6 +1524,16 @@
 	)
 	(wire
 		(pts
+			(xy 28.448 57.658) (xy 28.448 59.944)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14840d30-a023-4ce0-83f0-18d156033740")
+	)
+	(wire
+		(pts
 			(xy 68.58 87.63) (xy 68.58 97.79)
 		)
 		(stroke
@@ -1924,6 +1934,16 @@
 	)
 	(wire
 		(pts
+			(xy 28.448 69.85) (xy 43.688 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8567e7da-9541-4a6d-85bd-c01bcfa794c0")
+	)
+	(wire
+		(pts
 			(xy 73.66 114.3) (xy 85.09 114.3)
 		)
 		(stroke
@@ -2024,6 +2044,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.688 69.85) (xy 43.688 62.484)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6596131-373f-48fb-b5ee-f83ee5016836")
+	)
+	(wire
+		(pts
 			(xy 45.72 127) (xy 49.53 127)
 		)
 		(stroke
@@ -2051,6 +2081,16 @@
 			(type default)
 		)
 		(uuid "ab813fbb-996b-4a2c-bd87-59c327546e2b")
+	)
+	(wire
+		(pts
+			(xy 28.448 65.024) (xy 28.448 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd5f0c7-b7f0-469d-9897-1162a614763f")
 	)
 	(wire
 		(pts
@@ -2546,6 +2586,16 @@
 		(uuid "865a8a20-efa7-4669-8e39-3662dd0ab76f")
 	)
 	(label "IN"
+		(at 43.688 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c2d1213-e8f9-474a-a8cd-b79a24d8c953")
+	)
+	(label "IN"
 		(at 86.36 129.54 0)
 		(effects
 			(font
@@ -2564,6 +2614,16 @@
 			(justify left bottom)
 		)
 		(uuid "c68c55a0-513e-4eaa-873a-c7fab1d28f21")
+	)
+	(label "INPUT"
+		(at 28.448 57.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dadc7499-63e8-4b88-9a23-7980f64cdc9f")
 	)
 	(label "OUT_BP"
 		(at 148.59 132.08 0)
@@ -2585,8 +2645,8 @@
 		)
 		(uuid "e2f2804c-20a9-4a2f-916e-b1cfd3e03d14")
 	)
-	(label "IN"
-		(at 24.13 59.944 0)
+	(label "INPUT"
+		(at 20.066 59.944 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2676,7 +2736,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 62.484 0)
+		(at 20.066 62.484 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2686,7 +2746,7 @@
 		(dnp no)
 		(uuid "0942aec3-9345-4805-be95-588387e8429c")
 		(property "Reference" "#PWR015"
-			(at 24.13 68.834 0)
+			(at 20.066 68.834 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2697,7 +2757,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 80.264 0)
+			(at 20.066 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2707,7 +2767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 62.484 0)
+			(at 20.066 62.484 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2718,7 +2778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 62.484 0)
+			(at 20.066 62.484 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2729,7 +2789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 62.484 0)
+			(at 20.066 62.484 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,6 +4361,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 36.068 62.484 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78940855-1b31-4edf-b22e-91da3a1d5ccf")
+		(property "Reference" "U3"
+			(at 36.068 52.832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 36.068 55.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+			(at 36.068 62.484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 36.068 62.484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 36.068 62.484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fff21455-8791-4fed-9e57-0cb323952f5a")
+		)
+		(pin "1"
+			(uuid "9ef98dfe-374d-48f1-9886-cfdba604560b")
+		)
+		(pin "6"
+			(uuid "256d20f4-bfca-4a73-8309-79d90909ff0e")
+		)
+		(pin "5"
+			(uuid "bd5f0718-752c-4370-9464-05f6915a38a5")
+		)
+		(pin "4"
+			(uuid "190744bc-8efe-4894-9056-a5a3036ba61c")
+		)
+		(pin "2"
+			(uuid "c4b9987e-da2d-4431-8390-6f7a66ff030d")
+		)
+		(pin "7"
+			(uuid "61f2bfc0-1899-4288-bdf5-40851e77c7e5")
+		)
+		(pin "8"
+			(uuid "2c0fed05-9c3c-4651-aeeb-8406598323ca")
+		)
+		(instances
+			(project "KicadDesign"
+				(path "/c1a351fa-3a02-49bc-9f68-a75d5503bf21"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 58.42 44.45 180)
 		(unit 1)
@@ -4819,7 +4977,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 19.05 59.944 0)
+		(at 14.986 59.944 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4830,7 +4988,7 @@
 		(fields_autoplaced yes)
 		(uuid "93f77473-9616-4e7a-8660-71d80a403d91")
 		(property "Reference" "J3"
-			(at 19.685 54.356 0)
+			(at 15.621 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4840,7 +4998,7 @@
 			)
 		)
 		(property "Value" "Input"
-			(at 19.685 56.896 0)
+			(at 15.621 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4850,7 +5008,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 19.05 59.944 0)
+			(at 14.986 59.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +5019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 59.944 0)
+			(at 14.986 59.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4872,7 +5030,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 19.05 59.944 0)
+			(at 14.986 59.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
