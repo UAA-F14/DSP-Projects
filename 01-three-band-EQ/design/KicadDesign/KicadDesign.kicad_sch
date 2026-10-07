@@ -2240,6 +2240,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 29.21) (xy 142.494 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8863c6d4-3605-4980-b638-bcbb38bd15b7")
+	)
+	(wire
+		(pts
 			(xy 73.66 114.3) (xy 85.09 114.3)
 		)
 		(stroke
@@ -2307,6 +2317,16 @@
 			(type default)
 		)
 		(uuid "96e780a0-fc1b-466f-b6f1-f3401e729a0a")
+	)
+	(wire
+		(pts
+			(xy 19.05 59.69) (xy 20.32 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9882e9b8-a589-4447-9ec8-df470dc5acf2")
 	)
 	(wire
 		(pts
@@ -2470,6 +2490,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 62.23) (xy 21.59 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05f233d-0a68-4b68-82de-2fd98cd2da1c")
+	)
+	(wire
+		(pts
 			(xy 155.448 50.292) (xy 151.638 50.292)
 		)
 		(stroke
@@ -2490,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.494 34.29) (xy 150.114 34.29)
+			(xy 142.494 34.29) (xy 143.51 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2861,6 +2891,16 @@
 			"9Q861RwAAAAASUVORK5CYII="
 		)
 	)
+	(label "INPUT"
+		(at 21.59 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "024680db-ec62-4e3d-b46c-ea63928047bb")
+	)
 	(label "OUT_BP"
 		(at 147.066 59.182 180)
 		(effects
@@ -2991,16 +3031,6 @@
 		)
 		(uuid "e2f2804c-20a9-4a2f-916e-b1cfd3e03d14")
 	)
-	(label "INPUT"
-		(at 20.066 59.944 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e866243e-b6e4-40b9-b2bf-609c57c586ee")
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 168.91 45.212 270)
@@ -3082,7 +3112,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.066 62.484 0)
+		(at 20.32 59.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3090,9 +3120,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0942aec3-9345-4805-be95-588387e8429c")
+		(uuid "0bf28942-925d-4543-9f91-157d8074437c")
 		(property "Reference" "#PWR015"
-			(at 20.066 68.834 0)
+			(at 20.32 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3103,7 +3133,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.066 80.264 0)
+			(at 20.066 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3113,7 +3143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.066 62.484 0)
+			(at 20.32 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3124,7 +3154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.066 62.484 0)
+			(at 20.32 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3135,7 +3165,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.066 62.484 0)
+			(at 20.32 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3146,7 +3176,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f7c6ce2-73a1-49bd-bc8e-d904bb640056")
+			(uuid "9d91582b-6be9-4a26-9513-937fdaa1eda4")
 		)
 		(instances
 			(project "KicadDesign"
@@ -3407,6 +3437,85 @@
 			(project "KicadDesign"
 				(path "/c1a351fa-3a02-49bc-9f68-a75d5503bf21"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VEE")
+		(at 143.51 29.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18418334-a5b5-4d88-862f-480addcac343")
+		(property "Reference" "#PWR018"
+			(at 139.7 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 147.32 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 143.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0ed2b54-1408-435f-aed9-3069bc4cbe4f")
+		)
+		(instances
+			(project "KicadDesign"
+				(path "/c1a351fa-3a02-49bc-9f68-a75d5503bf21"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4484,85 +4593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 142.494 29.21 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65f74a4d-0691-4d7d-bfc1-182b43ef73f0")
-		(property "Reference" "#PWR017"
-			(at 138.684 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 146.304 29.2099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.494 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.494 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 142.494 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cad29e92-af44-4264-b89d-90b57a22a774")
-		)
-		(instances
-			(project "KicadDesign"
-				(path "/c1a351fa-3a02-49bc-9f68-a75d5503bf21"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 38.1 38.1 90)
 		(unit 1)
@@ -4813,85 +4843,6 @@
 			(project "KicadDesign"
 				(path "/c1a351fa-3a02-49bc-9f68-a75d5503bf21"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VEE")
-		(at 150.114 34.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d10232f-14db-4fd5-a6f7-b01ffc99861a")
-		(property "Reference" "#PWR018"
-			(at 146.304 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VEE"
-			(at 153.924 34.2899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 150.114 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 150.114 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VEE\""
-			(at 150.114 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9c34286-6e2a-4bbe-a17b-ce59b2587ab4")
-		)
-		(instances
-			(project "KicadDesign"
-				(path "/c1a351fa-3a02-49bc-9f68-a75d5503bf21"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5625,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 14.986 59.944 0)
+		(at 13.97 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5685,7 +5636,7 @@
 		(fields_autoplaced yes)
 		(uuid "93f77473-9616-4e7a-8660-71d80a403d91")
 		(property "Reference" "J3"
-			(at 15.621 54.356 0)
+			(at 14.605 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5695,7 +5646,7 @@
 			)
 		)
 		(property "Value" "Input"
-			(at 15.621 56.896 0)
+			(at 14.605 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5705,7 +5656,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 14.986 59.944 0)
+			(at 13.97 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5716,7 +5667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 14.986 59.944 0)
+			(at 13.97 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5727,7 +5678,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 14.986 59.944 0)
+			(at 13.97 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5905,6 +5856,85 @@
 			(project "KicadDesign"
 				(path "/c1a351fa-3a02-49bc-9f68-a75d5503bf21"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 143.51 34.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e217d43-c2c1-4afa-b468-6628461de2a8")
+		(property "Reference" "#PWR017"
+			(at 139.7 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 147.32 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 143.51 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07ee284a-eb4f-4bd1-af14-8a4fbf2b8468")
+		)
+		(instances
+			(project "KicadDesign"
+				(path "/c1a351fa-3a02-49bc-9f68-a75d5503bf21"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
