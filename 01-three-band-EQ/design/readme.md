@@ -10,3 +10,9 @@
 - Replace with the actual footprints
 - Add ground plane
 - Add Printed Files
+
+# 10 - 7 - 26
+![10-7-26](src/readme/image3.png)
+## Fixed
+- Add ground plane
+- Replace with the actual footprints
