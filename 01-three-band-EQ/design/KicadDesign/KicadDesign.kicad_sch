@@ -2738,16 +2738,6 @@
 		)
 		(uuid "865a8a20-efa7-4669-8e39-3662dd0ab76f")
 	)
-	(label "IN"
-		(at 86.36 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a55df34e-f3c2-4e31-b777-021bba667075")
-	)
 	(label "Out"
 		(at 208.28 48.26 0)
 		(effects
