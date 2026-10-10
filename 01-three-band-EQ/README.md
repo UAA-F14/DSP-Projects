@@ -1,37 +1,38 @@
 # Three Band EQ 
 
-A didactic board for triggering SCRs/thyristors — a phase-control firing circuit built for a power electronics course.
+A three-band equalizer is a type of audio filter that allows users to adjust the levels of three different frequency bands: low, mid, and high. This project implements a three-band equalizer using analog circuitry, specifically designed for audio applications.
 
 ## Directory structure
 ```
 ├── design
 │   ├── KicadDesign
-│   │   ├── Design.kicad_pcb
-│   │   ├── Design.kicad_pro
-│   │   ├── Design.kicad_sch
-│   └── Schematic.pdf
+│   │   ├── KicadDesign.kicad_pcb
+│   │   ├── KicadDesign.kicad_prl
+│   │   ├── KicadDesign.kicad_pro
+│   │   ├── KicadDesign.kicad_sch
+│   │   └── MFG_EQ.pdf
+│   ├── readme.md
 ├── doc
-│   ├── AC
-│   ├── ConfigAC.tex
-│   ├── Examen1.pdf
-│   ├── Examen1.tex
-│   └── Tarjeta didáctica de control para tiristores.pdf
+│   └── readme.md
 ├── README.md
-├── src
-│   └── render.png
-├── sim
-│   └── EQ.asc
+└── sim
+    ├── EQ.asc
+    ├── EQ.op.raw
+    ├── EQ.raw
+    ├── EQreal.asc
+    ├── EQreal.op.raw
+    ├── EQreal.raw
+    ├── tl072.cir
+
 ```
 
-- `SCRController.kicad_sch` / `.kicad_pcb` / `.kicad_pro` — KiCad design
-- `SCRController.step` — 3D model
-- `Tarjeta didáctica de control para tiristores.pdf` — design writeup
-- `simulation.asc.txt` — LTspice simulation
-
+- `KicadDesign.kicad_sch` / `.kicad_pcb` / `.kicad_pro` — KiCad design
+- `KicadDesign.step` — 3D model
+- `MFG_EQ.pdf` — design writeup
+- `EQ.asc` — LTspice simulation
 
 ![3D render](src/render.png)
-
-**Photos of the built board — coming soon**
+![Demo](src/Demo.mp4)
 
 ## Files
 
@@ -47,4 +48,3 @@ mkdir code design doc scripts sim src
 ```
 tree >> README.md
 ```
-
